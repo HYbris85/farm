@@ -1,0 +1,45 @@
+--equip stomp to bloodline farm
+local Godly_Lifters = Instance.new("ScreenGui")
+local Frame1 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Teleport = Instance.new("Sound")
+local UICorner_2 = Instance.new("UICorner")
+local AntiAfk = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+Godly_Lifters.Name = "Godly_Lifters"
+Godly_Lifters.Parent = game.CoreGui
+Godly_Lifters.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame1.Name = "Frame1"
+Frame1.Parent = Godly_Lifters
+Frame1.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+Frame1.Position = UDim2.new(0, 0, 0, 0)
+Frame1.Size = UDim2.new(0.24755694, 0, 0.348693579, 0)
+Frame1.ZIndex = 9
+Frame1.Active = true
+Frame1.Draggable = false
+
+UICorner.Parent = Frame1
+
+TextLabel.Parent = Frame1
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.917355478, 0)
+TextLabel.Size = UDim2.new(1, 0, 1, 0)
+TextLabel.ZIndex = 9
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+AntiAfk.Name = "AntiAfk"
+AntiAfk.Parent = Frame1
+AntiAfk.BackgroundColor3 = Color3.fromRGB(62, 0, 0)
+AntiAfk.Size = UDim2.new(0, 2000, 0, 1300)
+AntiAfk.Image = "rbxassetid://11604984028"
+AntiAfk.ImageColor3 = Color3.fromRGB(255, 0, 0)
+AntiAfk.ImageTransparency = 0.500
+AntiAfk.ScaleType = Enum.ScaleType.Crop
